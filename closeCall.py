@@ -21,7 +21,6 @@ GPIO.setup(ECHO,GPIO.IN)
 
 #set camera
 camera = PiCamera()
-stopPreview = camera.stop_preview()
 camera.start_preview(alpha=200)
  
 def distance():
@@ -57,16 +56,16 @@ if __name__ == '__main__':
             dist = distance()
             print ("Measured Distance = %.3f m" % dist)
             if dist < 1:
-                for i in range (1):
+                for i in range (3):
                     fileName = datetime.now().strftime('/home/pi/Desktop/camera/project/%Y-%m-%d_%H.%M.%S.jpg')
                     camera.capture(fileName)
                     print('photo captured')
-                    time.sleep(3)
+                    time.sleep(1)
             else:
                 time.sleep(3)
 
  
-# Reset by pressing CTRL + C
+#Reset by pressing CTRL + C
     except KeyboardInterrupt:
         print("Measurement stopped by User")
         GPIO.cleanup()
