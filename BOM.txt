@@ -1,8 +1,10 @@
 BOM List - Update as needed
 
+0. Raspberry Pi
 1. HC-SR04 Ultrasonic Distance Sensor
 2. Pi Camera Module V2 - 8 Megapixel, 1080p
 3. Breadboard
 4. 1 x 1k Resistor
 5. 1 X 2k Resistor
 6. 8 x Female to Male Jumper Cables
+7. 1 x Button (12mm*12mm)
