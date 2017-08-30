@@ -8,14 +8,14 @@ Sound Sensor setup - I found this the most direct resource to setup the distance
  - https://www.modmypi.com/blog/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi
 
 
-Camera Setup - 
-https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/
+Camera Setup
+
+- https://www.raspberrypi.org/learning/getting-started-with-picamera/worksheet/
 
 
-GPIO 40 pin Chart - 
-https://openclipart.org/detail/280972/raspberry-pi-3-gpio-pin-chart-with-pi
+GPIO 40 pin Chart
+- https://openclipart.org/detail/280972/raspberry-pi-3-gpio-pin-chart-with-pi
 
-Open Source License Plate Recognition-
-OpenALPR
-http://www.openalpr.com/
-https://github.com/openalpr/openalpr
+Open Source License Plate Recognition
+- http://www.openalpr.com/
+- https://github.com/openalpr/openalpr
